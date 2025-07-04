@@ -19,7 +19,4 @@
 echo 'src-git-full kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
 echo 'src-git-full small https://github.com/kenzok8/small' >>feeds.conf.default
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
-echo "108.160.165.212     dropbox.com" >> /etc/hosts
-echo "2620:100:6040:18::a27d:f812     dropbox.com" >> /etc/hosts
-echo "162.125.84.15    ucabb9ea89f12f6a88c6e1abfcbc.dl.dropboxusercontent.com" >> /etc/hosts
-echo "2620:100:6034:15::a27d:540f    ucabb9ea89f12f6a88c6e1abfcbc.dl.dropboxusercontent.com" >> /etc/hosts
+
